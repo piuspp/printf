@@ -1,20 +1,3 @@
-Skip to content
-kelleman
-/
-printf
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-More
-printf/functions1.c
-@kelleman
-kelleman done functions
- History
- 1 contributor
-162 lines (133 sloc)  3.89 KB
 #include "main.h"
 
 /************************* PRINT UNSIGNED NUMBER *************************/
@@ -176,19 +159,3 @@ int print_hexa(va_list types, char map_to[], char buffer[],
 
 	return (write_unsgnd(0, i, buffer, flags, width, precision, size));
 }
-
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-printf/functions1.c at master · kelleman/printf
